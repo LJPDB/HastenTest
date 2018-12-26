@@ -27,7 +27,7 @@ class Tableview_SportPlayers_List: UIViewController {
         ol_tableView.delegate = self
         ol_tableView.dataSource = self
         
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+       // let appDelegate = UIApplication.shared.delegate as! AppDelegate
         //getInfoFromURL = appDelegate.NW_AF_Singleton?.getInfoFromURL()
         getInfoFromURL()
     }
@@ -82,7 +82,7 @@ extension Tableview_SportPlayers_List: UITableViewDelegate, UITableViewDataSourc
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return self.sportPlayersList?[section]["title"] as! String
+        return (self.sportPlayersList?[section]["title"] as! String)
     }
     
     func resetTableView(){

@@ -48,9 +48,9 @@ class NetworkingAF: NSObject {
                 result = json //response.result.value as! [String: Any]
             }
             
-            if let data = response.data, let utf8Text = String(data: data, encoding: .utf8) {
+            //if let data = response.data, let utf8Text = String(data: data, encoding: .utf8) {
                 //print("Data: \(utf8Text)") // original server data as UTF8 string
-            }
+            //}
         }
         
         
