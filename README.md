@@ -14,6 +14,12 @@ When you open the app you will notice that some pictures are missing and there w
 
 - Cristiano Ronaldo: http://www.segundoasegundo.com/sas/wp-content/uploads/2014/01/cristiano-ronaldo.jpg  --> this will lead you to a Newspaper instead of a picture of Cristiano
 
+## PODs used in this app
+
+- Alamofire
+- SwiftyJSON
+- SDWebImage
+
 ## Instalation and test
 
 - Download/Clone the app
