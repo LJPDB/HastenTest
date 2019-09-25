@@ -1,5 +1,6 @@
 # Hasten Test App
-//testing PR in jenkins 1
+//testing PR in jenkins 2
+
 This is a test app fro Hasten group to measure the candidates knowledge about swift, xcode and iOS application in general.
 I want to start apologizing myself for the delay in delivering the final product and also make a bullet list of pending tasks that are missing in this project. It took me day and a half to finish this app and these are the missing points (although i thought about coding them):
 
